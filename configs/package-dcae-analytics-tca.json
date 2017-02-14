@@ -1,0 +1,29 @@
+{
+    "applicationName": "dcae-analytics-tca",
+    "maintainer": "OpenECOMP Support <support@lists.openecomp.org>",
+    "description": "OpenECOMP DCAE APOD TCA Hi Lo CDAP application.  dcae-analytics-tca installs the CDAP dcae-analytics-tca....jar file in /opt/app/cdap-apps ",
+
+    "version": "1.0.0",
+
+    "executionUser": "dcae",
+    "executionGroup": "dcae",
+
+    "fileUser": "dcae",
+    "fileGroup": "dcae",
+
+    "groupId": "org.openecomp.dcae.apod",
+ 
+    "internalDependencies": [ ],
+
+    "directoryTreeTops": {
+        "/opt": "/opt/app/cdap-apps"
+    },
+
+    "debian": { 
+        "replaces": [ ], 
+ 
+        "conflicts": [ ], 
+ 
+        "externalDependencies": [ ] 
+    }
+}
