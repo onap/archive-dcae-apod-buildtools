@@ -3,7 +3,7 @@
     "maintainer": "OpenECOMP Support <support@lists.openecomp.org>",
     "description": "dcae-apod-cdap-small-hadoop installs a set of installer scripts and configuration templates for installing Hadoop 2.4.3 and CDAP 3.5.x on a 3-node Ubuntu 14 cluster.  Note: as user root, you must run the installer: sudo bash /opt/app/cdap-small-hadoop/install.sh",
 
-    "version": "1.0.0",
+    "version": "1.1.0",
 
     "executionUser": "dcae",
     "executionGroup": "dcae",
