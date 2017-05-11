@@ -10,7 +10,7 @@ REPO="${NEXUSPROXY}/content/sites/raw"
 
 #Create a netrc file for use with curl
 NETRC=$(mktemp)
-echo "machine nexus.openecomp.org login $USER password $PASS" > "$NETRC"
+echo "machine nexus.onap.org login $USER password $PASS" > "$NETRC"
 
 
 #Write an envionment var for the netrc location since it's a temp file
